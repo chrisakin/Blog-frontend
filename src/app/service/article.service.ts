@@ -17,7 +17,9 @@ export class ArticleService {
       'Authorization': this.token,
       'Access-Control-Allow-Origin':'*',
       'Access-Control-Allow-Methods':'PUT, POST, GET, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With, Accept,',
      });
+     
   }
 
   getArticles(): Observable<Post> {
