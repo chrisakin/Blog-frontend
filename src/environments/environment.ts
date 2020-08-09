@@ -5,10 +5,10 @@
 
 export const environment = {
   production: false,
-  articlesUrl: 'http://localhost:3000/articles',
-  articleUrl: 'http://localhost:3000/article/',
-  registerUrl: "http://localhost:3000/auth/register",
-  loginUrl: "http://localhost:3000/auth/sign_in",
+  articlesUrl: 'https://blog-backend-125.herokuapp.com/articles',
+  articleUrl: 'https://blog-backend-125.herokuapp.com/article/',
+  registerUrl: "https://blog-backend-125.herokuapp.com/auth/register",
+  loginUrl: "https://blog-backend-125.herokuapp.com/auth/sign_in",
 
 };
 
